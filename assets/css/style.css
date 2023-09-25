@@ -1,12 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* body,
+
+ {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+} */
+
 /*---------------------------------------------------------------Header*/
 .logo-description {
     margin: 0;
     min-height: 320px;
+    padding-bottom: 10px;
 }
 
 .logo {
-    /* background-image: url(../images/clstlogo.png); */
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
-    
+    padding-top: 10px;
+
 }
+
+.where {
+    align-content: center;
+}
+
+#jumbotron-btn {
+    padding-top: 30px;
+}
+
+/*---------------------------------------------------------------Utility classes and alignment*/
+
+.header {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------------------------------Colors*/
+
+.logo-description {
+    background-color: #dadfe6;
+}
+
+.card {
+    background-color: #f4f4f4;
+}
+
+/*---------------------------------------------------------------Colors*/
+
+/* @media (min-device-width:548px) and (max-device-width:990px) {
+
+    .logo {
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+}
+
+@media (min-device-width:991px) and (max-device-width:1199px) {
+
+    .logo {
+        padding-top: 30px;
+        
+    }
+} */
