@@ -26,10 +26,17 @@
     /* background-position: center; */
     background-size: cover;
     padding: 0;
+    aspect-ratio: 1 / 1;
 
 }
 
+.card-boxes {
+    padding: 10px;
+}
 
+.list-group-symptoms {
+    background-color: transparent;
+}
 
 .where {
     align-content: center;
@@ -74,11 +81,12 @@ hr {
 }
 
 .what-why {
-    background-color: aliceblue;
+    background-color: #f4f4f4;
 }
 
 .card {
-    background-color: aliceblue;
+    background-color: #f4f4f4;
+    
 }
 
 /*---------------------------------------------------------------Media Query*/
