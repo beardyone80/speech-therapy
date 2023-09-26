@@ -25,13 +25,11 @@
 .logo {
     /* background-position: center; */
     background-size: cover;
-    padding-top: 10px;
+    padding: 0;
 
 }
 
-.what-why {
-    background-color: aliceblue;
-}
+
 
 .where {
     align-content: center;
@@ -39,6 +37,10 @@
 
 #jumbotron-btn {
     padding-top: 30px;
+}
+
+.header-info {
+    padding-bottom: 30px;
 }
 
 /*---------------------------------------------------------------Utility classes and alignment*/
@@ -53,6 +55,16 @@
     padding-top: 0;
 }
 
+hr {
+    display: block;
+    width: 75%;
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
 /*---------------------------------------------------------------Colors*/
 
 .logo-description {
@@ -61,11 +73,15 @@
     margin: 0;
 }
 
-.card {
-    background-color: #f4f4f4;
+.what-why {
+    background-color: aliceblue;
 }
 
-/*---------------------------------------------------------------Colors*/
+.card {
+    background-color: aliceblue;
+}
+
+/*---------------------------------------------------------------Media Query*/
 
 /* @media (min-device-width:548px) and (max-device-width:990px) {
 
