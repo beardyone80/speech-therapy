@@ -17,6 +17,11 @@
     z-index: 1;
 }
 
+.navbar,
+.navbar-toggler {
+    border: 0;
+}
+
 /*---------------------------------------------------------------Header*/
 
 
@@ -80,7 +85,7 @@
 
 #where-title {
     text-align: start;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 25px;
 }
 
@@ -146,6 +151,10 @@ hr {
 .card {
     background-color: #f4f4f4;
     
+}
+
+.contact-form-bg {
+    background-color: #f4f4f4;
 }
 
 /*---------------------------------------------------------------Media Query*/
