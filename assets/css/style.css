@@ -29,6 +29,7 @@
 .logo {
     /* background-position: center; */
     background-size: cover;
+    object-fit: contain;
     padding: 0;
     aspect-ratio: 1 / 1;
 
@@ -54,6 +55,49 @@
     padding-bottom: 30px;
 }
 
+/*---------------------------------------------------------------What-Why-Where*/
+
+.what-why-container {
+    height: auto; 
+    
+    background: url(../images/plant-bg.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+#where-box {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#where-title {
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.accordion {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
 /*---------------------------------------------------------------Utility classes and alignment*/
 
 .container-fluid {
@@ -76,6 +120,10 @@ hr {
     margin-inline-end: auto;
 }
 
+.what-why-where {
+    padding: 5px;
+}
+
 /*---------------------------------------------------------------Colors*/
 
 
@@ -87,7 +135,8 @@ hr {
 }
 
 .what-why {
-    background-color: #f4f4f4;
+    /* background-image: url(../images/clstlogo.png);
+    background-image: cover; */
     padding: 5px 25px;
 }
 
@@ -98,18 +147,3 @@ hr {
 
 /*---------------------------------------------------------------Media Query*/
 
-/* @media (min-device-width:548px) and (max-device-width:990px) {
-
-    .logo {
-        padding-right: 25%;
-        padding-left: 25%;
-    }
-}
-
-@media (min-device-width:991px) and (max-device-width:1199px) {
-
-    .logo {
-        padding-top: 30px;
-        
-    }
-} */
