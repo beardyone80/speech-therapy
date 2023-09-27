@@ -10,11 +10,11 @@
     /* Set the navbar to fixed position */
     top: 0;
     /* Position the navbar at the top of the page */
-    /* width: 100%;
-    Full width */
+    width: 100%;
+    /* Full width */
     padding-top: 0px;
     padding-bottom: 0px;
-    
+    z-index: 1;
 }
 
 /*---------------------------------------------------------------Header*/
@@ -93,9 +93,15 @@
 .map-container {
     display: flex;
     align-items: center;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-left: 0px;
-    padding-right: 25px;
+    padding-right: 0px;
+}
+
+/*---------------------------------------------------------------Form/Carousel */
+
+#contact-form {
+    padding: 10px;
 }
 
 /*---------------------------------------------------------------Utility classes and alignment*/
@@ -120,9 +126,6 @@ hr {
     margin-inline-end: auto;
 }
 
-.what-why-where {
-    padding: 5px;
-}
 
 /*---------------------------------------------------------------Colors*/
 
